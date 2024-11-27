@@ -4,12 +4,16 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #f4f4f9;
+}
+
+h1, h2, h3 {
+    margin: 0;
 }
 
 /* Header Section */
 #header {
-    background: #ff7a00;
+    background-color: #ff7a00;
     color: white;
     padding: 20px 10%;
 }
@@ -23,40 +27,45 @@ body {
     list-style: none;
     display: flex;
     gap: 20px;
+    padding: 0;
 }
 
 #header .nav-links a {
-    color: #fff;
+    color: white;
     text-decoration: none;
-    font-size: 1.2rem;
-    transition: color 0.3s ease;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: background-color 0.3s;
 }
 
 #header .nav-links a:hover {
-    color: #e58900;
+    background-color: #e58900;
+    border-radius: 5px;
 }
 
 /* About Section */
 #about {
+    background-color: #2b2d42;
+    color: white;
     padding: 50px 10%;
-    background-color: #fff;
     text-align: center;
 }
 
 #about h2 {
     font-size: 2.5rem;
-    color: #333;
+    margin-bottom: 20px;
 }
 
 #about p {
-    font-size: 1.2rem;
-    color: #555;
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: 1.6;
 }
 
 /* Skills Section */
 #skills {
     padding: 50px 10%;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 #skills h2 {
@@ -81,12 +90,10 @@ body {
 .skill-category h3 {
     font-size: 1.2rem;
     color: #ff7a00;
-    border-bottom: 2px solid #ff7a00;
     margin-bottom: 10px;
 }
 
-.skill-category p,
-.skill-category ul {
+.skill-category p, .skill-category ul {
     font-size: 1rem;
     color: #555;
     line-height: 1.5;
@@ -100,7 +107,7 @@ body {
 /* Projects Section */
 #projects {
     padding: 50px 10%;
-    background-color: #fff;
+    background-color: #f4f4f9;
 }
 
 #projects h2 {
@@ -128,11 +135,11 @@ body {
 
 .project-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .project-card img {
     width: 100%;
+    height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
 }
@@ -151,10 +158,10 @@ body {
     display: inline-block;
     padding: 10px 20px;
     background: #ff7a00;
-    color: #fff;
+    color: white;
     border-radius: 5px;
     text-decoration: none;
-    transition: background 0.3s ease;
+    transition: background 0.3s;
 }
 
 .view-project:hover {
@@ -164,7 +171,7 @@ body {
 /* Contact Section */
 #contact {
     padding: 50px 10%;
-    background-color: #f4f4f4;
+    background-color: #fff;
     text-align: center;
 }
 
@@ -173,13 +180,9 @@ body {
 }
 
 #contact a {
-    color: #ff7a00;
-    text-decoration: none;
-    font-weight: bold;
-}
+    color
 
-/* Footer */
-footer {
-    padding: 20px
+
+
 
 
