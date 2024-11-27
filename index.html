@@ -5,85 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hemanth Kumar Sunkari - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header class="hero-section">
-        <div class="container">
-            <h1 class="title">Hemanth Kumar Sunkari</h1>
-            <p class="subtitle">Aspiring AI & ML Specialist | Passionate Problem Solver</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/hemanth-sunkari" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/Hemanthkumarsunkari27" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:hemanthkumarsunkarii@gmail.com"><i class="fas fa-envelope"></i></a>
-            </div>
-        </div>
+    <header id="header">
+        <nav>
+            <h1 class="name">Hemanth Kumar Sunkari</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                I am a passionate and driven B.Tech student specializing in Artificial Intelligence and Machine Learning. With a knack for solving problems, I lead teams to create impactful solutions.
-            </p>
-        </div>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate and driven B.Tech student specializing in Artificial Intelligence and Machine Learning.
+            With a knack for solving problems, I lead teams to create impactful solutions.
+        </p>
     </section>
 
-    <section class="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <p>Python, HTML, CSS</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Frameworks/Libraries</h3>
-                    <p>NumPy, Pandas, Matplotlib</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Databases</h3>
-                    <p>MySQL</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Developer Tools</h3>
-                    <p>Microsoft Office (Word, Excel, PowerPoint), Google Colab, VS Code, Anaconda</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Academic Coursework</h3>
-                    <p>Data Structures, Operating Systems (Windows), AI, ML, OOP, DBMS</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Certifications</h3>
-                    <ul>
-                        <li>Generative AI (Microsoft)</li>
-                        <li>Python (Infosys Springboard)</li>
-                        <li>Python for Data Science (NPTEL)</li>
-                        <li>Career Edge: Young Professional (TCS)</li>
-                        <li>SQL (IBM)</li>
-                        <li>Data Visualization Program (Accenture)</li>
-                    </ul>
-                </div>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <p>Python, HTML, CSS</p>
+            </div>
+            <div class="skill-category">
+                <h3>Frameworks/Libraries</h3>
+                <p>NumPy, Pandas, Matplotlib</p>
+            </div>
+            <div class="skill-category">
+                <h3>Databases</h3>
+                <p>MySQL</p>
+            </div>
+            <div class="skill-category">
+                <h3>Developer Tools</h3>
+                <p>Microsoft Office (Word, Excel, PowerPoint), Google Colab, VS Code, Anaconda</p>
+            </div>
+            <div class="skill-category">
+                <h3>Academic Coursework</h3>
+                <p>Data Structures, Operating Systems (Windows), AI, ML, OOP, DBMS</p>
+            </div>
+            <div class="skill-category">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Generative AI (Microsoft)</li>
+                    <li>Python (Infosys Springboard)</li>
+                    <li>Python for Data Science (NPTEL)</li>
+                    <li>Career Edge: Young Professional (TCS)</li>
+                    <li>SQL (IBM)</li>
+                    <li>Data Visualization Program (Accenture)</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section class="projects">
-        <div class="container">
-            <h2>Projects</h2>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <!-- Food Website Project -->
             <div class="project-card">
                 <img src="assets/food-website.png" alt="Food Website">
                 <h3>Food Website</h3>
-                <p>An appealing and modern food delivery website. Features include menu display, categories, and offers.</p>
-                <a href="https://github.com/Hemanthkumarsunkari27/Food-Website.git" target="_blank" class="btn">View Project</a>
+                <p>A responsive and interactive website showcasing a food delivery service with a modern UI.</p>
+                <a href="https://github.com/Hemanthkumarsunkari27/Food-Website.git" class="view-project" target="_blank">View Project</a>
             </div>
+
+            <!-- GameHub Project -->
             <div class="project-card">
                 <img src="assets/gamehub.png" alt="GameHub">
                 <h3>GameHub</h3>
-                <p>A gaming platform hub featuring trending games and user-friendly interfaces.</p>
-                <a href="https://github.com/Hemanthkumarsunkari27/GameHub.git" target="_blank" class="btn">View Project</a>
+                <p>A platform for managing and exploring various games with a user-friendly interface.</p>
+                <a href="https://github.com/Hemanthkumarsunkari27/GameHub.git" class="view-project" target="_blank">View Project</a>
             </div>
         </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:hemanthkumarsunkarii@gmail.com">hemanthkumarsunkarii@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/hemanth-sunkari" target="_blank">View LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/Hemanthkumarsunkari27" target="_blank">View GitHub Profile</a></p>
     </section>
 
     <footer>
@@ -91,3 +97,4 @@
     </footer>
 </body>
 </html>
+
